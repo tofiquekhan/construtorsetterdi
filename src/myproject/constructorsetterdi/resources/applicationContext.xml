@@ -4,9 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
  <bean id="studentBean" class="myproject.constructorsetterdi.beans.Student">
- <constructor-arg value="1111"/>
+ <!-- <constructor-arg value="1111"/>
  <constructor-arg value="Himanshu"/>
- <constructor-arg value="Indore"/>
+ <constructor-arg value="Indore"/> -->
+ 
+ <property name="sid" value="2222"/>
+ <property name="sname" value="Tofique"/>
+ <property name="saddr" value="Pune"></property>
  
  </bean>
 </beans>
