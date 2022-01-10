@@ -6,12 +6,14 @@ public class Student {
 	private String sname;
 	private String saddr;
 	
-	/*
-	 * public Student(String sid,String sname,String saddr) { this.sid = sid;
-	 * this.sname = sname; this.saddr = saddr; System.out.
-	 * println("--------------------Constructor Dependency Injection -----------------------"
-	 * ); }
-	 */
+	
+	  public Student(String sid,String sname,String saddr) { 
+		  this.sid = sid;
+		  this.sname = sname; 
+		  this.saddr = saddr; 
+		  System.out.println("--------------------Constructor Dependency Injection -----------------------");
+	  }
+	 
 	
 	
 
